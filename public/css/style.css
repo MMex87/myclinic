@@ -1,0 +1,99 @@
+/* CSS NAV & FORM*/
+input,
+select {
+  background-color: #fff;
+  border: 2px solid #c4b8e7;
+  color: black;
+  border-radius: 3px;
+  font-weight: 550;
+}
+
+.breadcrumb-item{
+  font-family: 'Roboto Mono', monospace; 
+  font-weight:900;
+}
+
+.nav-item{
+  border-radius: 3px; 
+  width: 150px;
+}
+
+input {
+  padding-left: 5px;
+}
+
+.bodyForm label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.jenisUmur input {
+  width: 40px;
+}
+
+td {
+  height: 50px;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  align-items: center;
+  border: 2px solid #fff;
+  text-decoration: none;
+}
+
+.link-BC a:link {
+  text-decoration: none;
+  color: #8471c9;
+  opacity: 60%;
+}
+
+.link-BC a:visited {
+  text-decoration: none;
+  color: #6b59ae;
+}
+
+.footer {
+  margin-top: 201px;
+}
+
+.nav-link:hover {
+  color: #3399ff;
+}
+
+/* style auto complate */
+
+.autocomplete-suggestions {
+  border: 1px solid #999;
+  background: #fff;
+  overflow: auto;
+}
+
+.autocomplete-suggestion {
+  padding: 2px 5px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.autocomplete-selected {
+  background: #f0f0f0;
+}
+
+.autocomplete-suggestions strong {
+  font-weight: normal;
+  color: #3399ff;
+}
+
+.autocomplete-group {
+  padding: 2px 5px;
+}
+
+.autocomplete-group strong {
+  display: block;
+  border-bottom: 1px solid #000;
+}
