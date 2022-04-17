@@ -1,0 +1,41 @@
+nav .navbar {
+  position: fixed;
+  background-color: #aa95ea;
+}
+
+.container-satu {
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+}
+
+.card {
+  border-radius: 2px;
+
+  background-color: #aa95ea;
+  overflow: hidden;
+  margin: 10px;
+  flex: 1;
+  text-align: center;
+}
+
+.card .header {
+  height: 190px;
+  background-color: #aa95ea;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  font-size: 40px;
+  color: whitesmoke;
+}
+
+.card .content {
+  text-align: center;
+  background-color: #6c53b6;
+  padding-top: 10px;
+  justify-content: center;
+  float: right;
+  color: whitesmoke;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-size: 20px;
+}

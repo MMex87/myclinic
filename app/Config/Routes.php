@@ -47,6 +47,9 @@ $routes->get('/obat', 'Obat::index');
 $routes->get('/obat/edit/(:segment)', 'Obat::edit/$1');
 $routes->delete('/obat/data_obat/delete/(:num)', 'Obat::delete/$1');
 
+// routes Laporan
+$routes->get('/laporan', 'Laporan::index');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

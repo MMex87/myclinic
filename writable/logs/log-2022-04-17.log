@@ -152,3 +152,16 @@ CRITICAL - 2022-04-17 02:12:28 --> Trying to access array offset on value of typ
 #8 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #9 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
 #10 {main}
+CRITICAL - 2022-04-17 06:50:54 --> Undefined variable $scrumb
+#0 C:\xampp\htdocs\myclinic\app\Views\layout\template.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('laporan/index', Array, true)
+#5 C:\xampp\htdocs\myclinic\app\Controllers\Laporan.php(20): view('laporan/index', Array)
+#6 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Laporan->index()
+#7 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#8 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}

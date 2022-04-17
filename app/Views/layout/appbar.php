@@ -19,7 +19,7 @@
             </li>
             <li class=" nav-item btn"
                 <?= ($appbar == 'laporan') ? 'style="background-color: #61529A;"' : 'style="background-color: #7d64c5;"' ?>>
-                <a href="laporan.php" class="nav-link"
+                <a href="/laporan" class="nav-link"
                     style="color: #ffffff; font-family: 'Roboto Mono', monospace; font-weight:650;">LAPORAN</a>
             </li>
         </ul>
