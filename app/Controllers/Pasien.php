@@ -165,14 +165,14 @@ class Pasien extends BaseController
         }
         // cek nik
 
-        if ($pasienLama['nik'] == '-') {
+        if ($pasienLama['nik'] == $nik) {
             $rule_nik = 'required';
         } else {
             $rule_nik = 'is_unique[pasien.nik]';
         }
         // cek no bpjs
 
-        if ($pasienLama['no_bpjs'] == '-') {
+        if ($pasienLama['no_bpjs'] == $no_bpjs) {
             $rule_bpjs = 'required';
         } else {
             $rule_bpjs = 'is_unique[pasien.no_bpjs]';

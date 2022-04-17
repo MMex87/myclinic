@@ -61,6 +61,47 @@ class Obat extends BaseController
             'key'           => $keyword
         ];
 
-        return view('/obat/data_obat', $data);
+        return view('obat/data_obat', $data);
+    }
+
+    public function delete($id)
+    {
+        $this->obatModel->where('id_obat', $id)->delete();
+
+        session()->getFlashdata('pesan', "Data Berhasil DiHapus");
+
+        return redirect()->to('/obat/data_obat');
+    }
+
+    public function edit($id)
+    {
+        $data = [
+            'appbar'    => 'obat',
+            'obat'      => $this->obatModel->getObat($id)
+        ];
+
+        return view('obat/edit', $data);
+    }
+
+    public function update($id)
+    {
+        // deklarasi inputan
+        $nama = $this->request->getVar('nama_obat');
+        $jenis = $this->request->getVar('jenis');
+        $jumlah = $this->request->getVar('jumlah_obat');
+        $date = $this->request->getVar('expired_date');
+
+        // save dengan model
+        $this->obatModel->save([
+            'id_obat'       => $id,
+            'nama_obat'     => $nama,
+            'jumlah_obat'   => $jumlah,
+            'expired_date'  => $date,
+            'jenis_obat'    => $jenis
+        ]);
+
+        session()->setFlashdata('pesan', "Data Berhasil DiUbah");
+
+        return redirect()->to('/obat/data_obat');
     }
 }

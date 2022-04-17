@@ -18,6 +18,25 @@
     <br />
 
     <div class="card-body">
+        <!-- Alert -->
+
+        <?php if (session()->getFlashdata('pesan') == 'Data Berhasil DiHapus') : ?>
+        <div class="alert alert-danger" role="alert">
+            <?= session()->getFlashdata('pesan'); ?>
+        </div>
+        <?php
+            header("refresh:2;url=/obat/data_obat"); //5 : detik
+        endif; ?>
+
+
+        <?php if (session()->getFlashdata('pesan') == 'Data Berhasil DiUbah') : ?>
+        <div class="alert alert-success" role="alert">
+            <?= session()->getFlashdata('pesan'); ?>
+        </div>
+        <?php
+            header("refresh:2;url=/obat/data_obat"); //5 : detik
+        endif; ?>
+
         <table class="table">
             <thead>
                 <tr style="color: black; font-family:  'Roboto Mono', monospace; font-weight:800;">
@@ -39,11 +58,13 @@
                     <td scope="row"><?= $o['jumlah_obat'] ?></td>
                     <td scope="row" style="color: red;"><?= $o['expired_date'] ?></td>
                     <td scope="row">
-                        <a href="obat.php?tindakan=edit&id=<?= $o['id_obat'] ?>"><button type="button"
+                        <a href="/obat/edit/<?= $o['id_obat'] ?>"><button type="button"
                                 class="tombol btn-warning mb-1 ">Edit</button></a>
-                        <a href="obat.php?tindakan=delete&id=<?= $o['id_obat'] ?>"
-                            onclick="return confirm('Hapus Data?')"><button type="button"
-                                class="tombol btn-danger mb-1">Delete</button></a>
+                        <form action="/obat/data_obat/delete/<?= $o['id_obat'] ?>" class="d-inline" method="post">
+                            <input type="hidden" name="_method" value="DELETE">
+                            <button onclick="return confirm('Hapus Data?')" type="submit"
+                                class="tombol btn-danger mb-1">Delete</button>
+                        </form>
                     </td>
                 </tr>
                 <?php endforeach; ?>

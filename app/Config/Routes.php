@@ -31,15 +31,21 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
+
+// routes Pendaftaran
 $routes->get('/', 'Pendaftaran::index');
 $routes->get('/pendaftaran/diagnosa', 'Diagnosa::index');
 $routes->get('/pendaftaran/obat', 'SistemObat::index');
-$routes->get('/obat', 'Obat::index');
+
+// routes Pasien
 $routes->get('/pasien', 'Pasien::index');
-$routes->get('/pasien/data_pasien', 'Pasien::data_pasien');
 $routes->get('/pasien/edit/(:segment)', 'Pasien::edit/$1');
 $routes->delete('/pasien/data_pasien/(:num)', 'Pasien::delete/$1');
-$routes->get('/pasien/data_pasien/(:any)', 'Pasien::data_pasien/$1');
+
+// routes Obat
+$routes->get('/obat', 'Obat::index');
+$routes->get('/obat/edit/(:segment)', 'Obat::edit/$1');
+$routes->delete('/obat/data_obat/delete/(:num)', 'Obat::delete/$1');
 
 /*
  * --------------------------------------------------------------------
