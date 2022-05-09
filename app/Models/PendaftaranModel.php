@@ -7,6 +7,7 @@ use CodeIgniter\Model;
 class PendaftaranModel extends Model
 {
     protected $table = 'pendaftaran';
+    protected $primaryKey = 'id_pendaftaran';
     protected $allowedFields = ['nama_dokter', 'tindakan', 'status', 'tanggal_daftar', 'keterangan', 'id_pasien'];
 
     public function getDaftar()

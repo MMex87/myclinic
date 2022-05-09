@@ -16,7 +16,8 @@ class Pendaftaran extends BaseController
     {
         $data = [
             'scrumb' => 'pasien',
-            'appbar' => 'pendaftaran'
+            'appbar' => 'pendaftaran',
+            'cssdiag' => ''
         ];
         return view('pendaftaran/pendaftaran/index', $data);
     }

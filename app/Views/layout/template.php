@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
+
+    <?= ($cssdiag == 'diagnosa') ? '<link rel="stylesheet" href="/css/styleDiagnosa.css" />' : (($cssdiag == 'obat') ? '<link rel="stylesheet" href="/css/p.css" />' : '<link rel="stylesheet" href="/css/style.css" />') ?>
     <link rel="stylesheet" href="/css/style.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -36,11 +38,11 @@
                         </li>
                         <li class="breadcrumb-item"
                             <?= ($scrumb == 'diagnosa') ? 'style="color: #7d64c5"' : 'style="color: #8471C9"' ?>>
-                            <?= ($scrumb == 'diagnosa') ? 'DIAGNOSA' : '<a href="/pendaftaran/diagnosa">DIAGNOSA</a>' ?>
+                            <?= ($scrumb == 'diagnosa') ? 'DIAGNOSA' : '<a href="/diagnosa">DIAGNOSA</a>' ?>
                         </li>
                         <li class="breadcrumb-item"
                             <?= ($scrumb == 'obat') ? 'style="color: #7d64c5"' : 'style="color: #8471C9"' ?>>
-                            <?= ($scrumb == 'obat') ? 'OBAT' : '<a href="/pendaftaran/obat">OBAT</a>' ?>
+                            <?= ($scrumb == 'obat') ? 'OBAT' : '<a href="/obat">OBAT</a>' ?>
                         </li>
                     </ol>
                 </nav>

@@ -1,0 +1,44 @@
+/* Tindakan */
+#tindakan input,
+select,
+textarea {
+    background-color: #fff;
+    border: 1px solid #8378a9;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#tindakan input {
+    padding-left: 10px;
+}
+
+#tindakan button {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#tindakan table,
+th,
+td {
+    border: 1px solid #7d64c5;
+}
+
+#tindakan th {
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#tindakan .link-BC a:link {
+    text-decoration: none;
+    color: #6B59AE;
+    opacity: 60%;
+}
+
+#tindakan .link-BC a:visited {
+    text-decoration: none;
+    color: #6B59AE;
+}

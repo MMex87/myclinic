@@ -2,6 +2,7 @@
 
 namespace Config;
 
+
 // Create a new instance of our RouteCollection class.
 $routes = Services::routes();
 
@@ -34,8 +35,13 @@ $routes->setAutoRoute(true);
 
 // routes Pendaftaran
 $routes->get('/', 'Pendaftaran::index');
-$routes->get('/pendaftaran/diagnosa', 'Diagnosa::index');
 $routes->get('/pendaftaran/obat', 'SistemObat::index');
+
+// routes Pendaftaran Diagnosa
+$routes->get('/diagnosa', 'Diagnosa::index');
+$routes->get('/diagnosa/tindakan/(:num)', 'Diagnosa::tindakan/$1');
+$routes->delete('/diagnosa/delete/(:num)', 'Diagnosa::delete/$1');
+$routes->get('/diagnosa/obat/', 'Diagnosa::obat/$1');
 
 // routes Pasien
 $routes->get('/pasien', 'Pasien::index');
@@ -49,6 +55,7 @@ $routes->delete('/obat/data_obat/delete/(:num)', 'Obat::delete/$1');
 
 // routes Laporan
 $routes->get('/laporan', 'Laporan::index');
+
 
 /*
  * --------------------------------------------------------------------

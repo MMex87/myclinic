@@ -1,0 +1,108 @@
+.tda {
+  color: #1f2122;
+  font-family: "Roboto Mono", monospace;
+  border-right: 3px solid #c4b8e7;
+  border-bottom: 3px solid #c4b8e7;
+  text-align: center;
+}
+
+.link-BC a:link {
+  text-decoration: none;
+  color: #6B59AE;
+}
+
+.link-BC a:visited {
+  text-decoration: none;
+  color: #6B59AE;
+}
+
+.tdp {
+  color: #1f2122;
+  font-family: "Roboto Mono", monospace;
+  border-bottom: 3px solid #c4b8e7;
+  text-align: center;
+}
+
+.tds {
+  color: #1f2122;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  border-right: 3px solid #c4b8e7;
+}
+
+.tdo {
+  color: #1f2122;
+  text-align: left;
+  padding-left: 20px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+}
+
+.tdo1 {
+  color: #1f2122;
+  text-align: left;
+  font-family: "Roboto Mono", monospace;
+  border-right: 3px solid #c4b8e7;
+}
+
+th {
+  text-align: center;
+  border-bottom: 3px solid #c4b8e7;
+  border-right: 3px solid #c4b8e7;
+  color: #1f2122;
+  text-align: center;
+}
+
+body {
+  background-color: #c4b8e7;
+}
+
+table {
+  margin: 30px;
+  width: 90%;
+  background-color: #fff;
+  border: 3px solid #c4b8e7;
+  color: #1f2122;
+}
+
+input {
+  background-color: #fff;
+  border: 1.5px solid #8378a9;
+  color: black;
+  border-radius: 2px;
+  width: 150px;
+  height: 30px;
+  padding: 10px;
+}
+
+/* style auto complate */
+
+.autocomplete-suggestions {
+  border: 1px solid #999;
+  background: #fff;
+  overflow: auto;
+}
+
+.autocomplete-suggestion {
+  padding: 2px 5px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.autocomplete-selected {
+  background: #f0f0f0;
+}
+
+.autocomplete-suggestions strong {
+  font-weight: normal;
+  color: #3399ff;
+}
+
+.autocomplete-group {
+  padding: 2px 5px;
+}
+
+.autocomplete-group strong {
+  display: block;
+  border-bottom: 1px solid #000;
+}
