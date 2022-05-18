@@ -42,7 +42,7 @@
                         </li>
                         <li class="breadcrumb-item"
                             <?= ($scrumb == 'obat') ? 'style="color: #7d64c5"' : 'style="color: #8471C9"' ?>>
-                            <?= ($scrumb == 'obat') ? 'OBAT' : '<a href="/obat">OBAT</a>' ?>
+                            <?= ($scrumb == 'obat') ? 'OBAT' : '<a href="/pendaftaran/obat">OBAT</a>' ?>
                         </li>
                     </ol>
                 </nav>

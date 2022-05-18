@@ -5,7 +5,8 @@
 
 <?php
 if ($diagnosa) {
-    $tampil = $diagnosa;
+    $jumlah = count($diagnosa) - 1;
+    $tampil = $diagnosa[$jumlah];
     $pisah = explode(';', $tampil['o']);
 } else {
     $data['s'] = "";
@@ -24,7 +25,7 @@ if ($diagnosa) {
 }
 
 ?>
-<div class='mb-2 ms-5'>
+<div class='mb-5 ms-5'>
     <h4 class="me-2 float-start" style="font-family: 'Roboto Mono', monospace; font-weight:450;">NAMA : </h4>
     <h4 class="float-start" style="font-family: 'Roboto Mono', monospace; font-weight:450;"><?= $nama ?></h4>
 </div>

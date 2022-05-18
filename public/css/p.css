@@ -45,7 +45,15 @@
   border-right: 3px solid #c4b8e7;
 }
 
-th {
+#th-atas th {
+  text-align: center;
+  border-bottom: 3px solid #c4b8e7;
+  border-right: 3px solid #c4b8e7;
+  color: #1f2122;
+  text-align: center;
+}
+
+#th-bawah th {
   text-align: center;
   border-bottom: 3px solid #c4b8e7;
   border-right: 3px solid #c4b8e7;

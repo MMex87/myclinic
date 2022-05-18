@@ -15,7 +15,8 @@ class SistemObat extends BaseController
         $data = [
             'scrumb' => 'obat',
             'pasien' => $pasien,
-            'appbar' => 'pendaftaran'
+            'appbar' => 'pendaftaran',
+            'cssdiag' => ''
         ];
         return view('pendaftaran/obat/index', $data);
     }

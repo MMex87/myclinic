@@ -31,10 +31,10 @@
                 <td><?= $row['keterangan'] ?></td>
                 <td>
                     <input type="hidden" name="id_pendaftaran" value="<?= $row['id_pendaftaran'] ?>">
-                    <a name="btTindakan" class="btn bg-primary text-light"
-                        href="diagnosa/tindakan/<?= $row['id_pendaftaran']; ?>"
-                        style="width: 130px; height: 40px; border-radius: 2px; font-family: 'Roboto Mono', monospace; font-weight:450;  border: 2px solid #ffffff;">
-                        TINDAKAN <img src="../img/send.png" width="17px" height="17px" class="mb-1"> </a>
+                    <button type="submit" name="btTindakan" class="button bg-primary text-light"
+                        onclick="top.location='diagnosa/tindakan/<?= $row['id_pendaftaran'] ?>'"
+                        style="width: 120px; height: 30px; border-radius: 2px; font-family: 'Roboto Mono', monospace; font-weight:450;  border: 2px solid #ffffff;">
+                        TINDAKAN </button>
                 </td>
                 <form action="/diagnosa/delete/<?= $row['id_pendaftaran']; ?>" class="d-inline" method="post">
                     <input type="hidden" value="DELETE" name="_method">

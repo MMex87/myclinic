@@ -1,0 +1,244 @@
+CRITICAL - 2022-05-11 02:56:36 --> Undefined array key "gcs"
+#0 C:\xampp\htdocs\myclinic\app\Views\pendaftaran\diagnosa\obat.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pendaftaran/dia...', Array, true)
+#4 C:\xampp\htdocs\myclinic\app\Controllers\Diagnosa.php(69): view('pendaftaran/dia...', Array)
+#5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Diagnosa->obat('$1')
+#6 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diagnosa))
+#7 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-11 04:06:48 --> Attempt to read property "jumlah_obat" on array
+#0 C:\xampp\htdocs\myclinic\app\Controllers\Diagnosa.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 88)
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Diagnosa->save()
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diagnosa))
+#3 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-11 04:16:39 --> Undefined array key "gcs"
+#0 C:\xampp\htdocs\myclinic\app\Views\pendaftaran\diagnosa\obat.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pendaftaran/dia...', Array, true)
+#4 C:\xampp\htdocs\myclinic\app\Controllers\Diagnosa.php(71): view('pendaftaran/dia...', Array)
+#5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Diagnosa->obat('$1')
+#6 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diagnosa))
+#7 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-11 04:25:43 --> Attempt to read property "jumlah_obat" on array
+#0 C:\xampp\htdocs\myclinic\app\Controllers\Diagnosa.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 88)
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Diagnosa->save()
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diagnosa))
+#3 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-11 04:26:46 --> Array to string conversion
+#0 C:\xampp\htdocs\myclinic\app\Controllers\Diagnosa.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 93)
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Diagnosa->save()
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diagnosa))
+#3 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-11 04:30:28 --> Attempt to read property "jumlah_obat" on array
+#0 C:\xampp\htdocs\myclinic\app\Controllers\Diagnosa.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 86)
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Diagnosa->save()
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diagnosa))
+#3 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-11 04:32:08 --> Call to a member function getFirstRow() on array
+#0 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Diagnosa->save()
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diagnosa))
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-11 04:32:59 --> Call to a member function first() on array
+#0 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Diagnosa->save()
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diagnosa))
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-11 04:37:59 --> Call to a member function first() on array
+#0 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Diagnosa->save()
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diagnosa))
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-11 04:40:04 --> Undefined variable $50
+#0 C:\xampp\htdocs\myclinic\app\Controllers\Diagnosa.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 95)
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Diagnosa->save()
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diagnosa))
+#3 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-11 04:42:13 --> Undefined array key "gcs"
+#0 C:\xampp\htdocs\myclinic\app\Views\pendaftaran\diagnosa\obat.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pendaftaran/dia...', Array, true)
+#4 C:\xampp\htdocs\myclinic\app\Controllers\Diagnosa.php(71): view('pendaftaran/dia...', Array)
+#5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Diagnosa->obat('$1')
+#6 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diagnosa))
+#7 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-11 05:00:57 --> Undefined array key "gcs"
+#0 C:\xampp\htdocs\myclinic\app\Views\pendaftaran\diagnosa\obat.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pendaftaran/dia...', Array, true)
+#4 C:\xampp\htdocs\myclinic\app\Controllers\Diagnosa.php(86): view('pendaftaran/dia...', Array)
+#5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Diagnosa->obat('$1')
+#6 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diagnosa))
+#7 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-11 05:55:15 --> Call to protected method CodeIgniter\Session\Session::setCookie() from scope App\Controllers\Diagnosa
+#0 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Diagnosa->obat()
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diagnosa))
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-11 05:57:01 --> Attempt to read property "gcs" on array
+#0 C:\xampp\htdocs\myclinic\app\Views\pendaftaran\diagnosa\obat.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pendaftaran/dia...', Array, true)
+#4 C:\xampp\htdocs\myclinic\app\Controllers\Diagnosa.php(88): view('pendaftaran/dia...', Array)
+#5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Diagnosa->obat()
+#6 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diagnosa))
+#7 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-11 06:00:05 --> Attempt to read property "gcs" on array
+#0 C:\xampp\htdocs\myclinic\app\Views\pendaftaran\diagnosa\obat.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pendaftaran/dia...', Array, true)
+#4 C:\xampp\htdocs\myclinic\app\Controllers\Diagnosa.php(88): view('pendaftaran/dia...', Array)
+#5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Diagnosa->obat()
+#6 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diagnosa))
+#7 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-11 06:00:33 --> Attempt to read property "gcs" on array
+#0 C:\xampp\htdocs\myclinic\app\Views\pendaftaran\diagnosa\obat.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 10)
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pendaftaran/dia...', Array, true)
+#4 C:\xampp\htdocs\myclinic\app\Controllers\Diagnosa.php(86): view('pendaftaran/dia...', Array)
+#5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Diagnosa->obat()
+#6 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diagnosa))
+#7 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-11 07:07:16 --> Undefined array key "S"
+#0 C:\xampp\htdocs\myclinic\app\Views\pendaftaran\diagnosa\obat.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pendaftaran/dia...', Array, true)
+#4 C:\xampp\htdocs\myclinic\app\Controllers\Diagnosa.php(86): view('pendaftaran/dia...', Array)
+#5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Diagnosa->obat('$1')
+#6 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diagnosa))
+#7 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-11 08:00:46 --> Call to protected method CodeIgniter\Session\Session::setCookie() from scope App\Controllers\Diagnosa
+#0 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Diagnosa->obat()
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diagnosa))
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-11 08:19:49 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\myclinic\app\Controllers\Diagnosa.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Diagnosa->save()
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diagnosa))
+#3 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-11 08:19:56 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\myclinic\app\Controllers\Diagnosa.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Diagnosa->save()
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diagnosa))
+#3 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-11 08:43:52 --> mysqli::query(): Argument #1 ($query) cannot be empty
+#0 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('', 0)
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('')
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('')
+#3 C:\xampp\htdocs\myclinic\app\Controllers\Pendaftaran.php(46): CodeIgniter\Database\BaseConnection->query('')
+#4 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Pendaftaran->save()
+#5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pendaftaran))
+#6 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-11 08:49:08 --> Invalid file: /diagnosa/obat.php
+#0 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/diagnosa/obat....')
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('/diagnosa/obat', Array, true)
+#2 C:\xampp\htdocs\myclinic\app\Controllers\Diagnosa.php(140): view('/diagnosa/obat', Array)
+#3 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Diagnosa->save()
+#4 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diagnosa))
+#5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-05-11 08:50:04 --> Undefined variable $nama
+#0 C:\xampp\htdocs\myclinic\app\Views\pendaftaran\diagnosa\obat.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pendaftaran/dia...', Array, true)
+#4 C:\xampp\htdocs\myclinic\app\Controllers\Diagnosa.php(140): view('pendaftaran/dia...', Array)
+#5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Diagnosa->save()
+#6 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diagnosa))
+#7 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-11 08:55:51 --> Undefined variable $cssdiag
+#0 C:\xampp\htdocs\myclinic\app\Views\layout\template.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(226): CodeIgniter\View\View->render('layout/template', Array, true)
+#4 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('pendaftaran/dia...', Array, true)
+#5 C:\xampp\htdocs\myclinic\app\Controllers\Diagnosa.php(149): view('pendaftaran/dia...', Array)
+#6 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Diagnosa->save()
+#7 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diagnosa))
+#8 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-05-11 12:35:36 -->  is not a valid rule.
+#0 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('nama_obat', 'nama_obat', 'konidin', Array, Array)
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\myclinic\app\Controllers\Diagnosa.php(117): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Diagnosa->save()
+#5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Diagnosa))
+#6 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
