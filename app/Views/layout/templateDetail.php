@@ -15,6 +15,16 @@
     <title>Klinik Akiva</title>
     <link rel="icon" href="/img/Logo Klinik.jpeg">
 
+    <!-- Library JQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous">
+    </script>
+
+    <!-- Resources -->
+    <script src="https://cdn.amcharts.com/lib/5/index.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/percent.js"></script>
+    <script src="https://cdn.amcharts.com/lib/5/themes/Animated.js"></script>
+
     <style>
     a:link {
         text-decoration: none;
@@ -24,6 +34,11 @@
     a:visited {
         text-decoration: none;
         color: #fff;
+    }
+
+    #graph {
+        width: 100%;
+        height: 500px;
     }
     </style>
 

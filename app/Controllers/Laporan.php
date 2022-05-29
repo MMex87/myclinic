@@ -157,50 +157,20 @@ class Laporan extends BaseController
         return view('/laporan/pemeriksaan', $data);
     }
 
-    // public function pdfPasien()
-    // {
-    //     $db = \Config\Database::connect();
-    //     $tanggal = $this->request->getGet('tanggal');
+    public function chartDiagnosa()
+    {
+        $data = [
+            'detail'    => 'laporan',
+        ];
 
-    //     $query = $db->query("SELECT pendaftaran.tindakan, pasien.no_rm, pasien.nama, pasien.tanggal_lahir, pasien.jenis_kelamin, pasien.alamat, diagnosa.a, pendaftaran.tanggal_daftar, pendaftaran.keterangan
-    //     FROM pendaftaran
-    //     JOIN pasien on pasien.id_pasien=pendaftaran.id_pasien 
-    //     JOIN diagnosa on diagnosa.id_pendaftaran= pendaftaran.id_pendaftaran WHERE tanggal_daftar LIKE '%$tanggal%' GROUP BY pasien.nama")->getResultArray();
+        return view('/laporan/chartDiagnosa', $data);
+    }
+    public function chartPasien()
+    {
+        $data = [
+            'detail'    => 'laporan',
+        ];
 
-
-
-    //     $data = [
-    //         'pasien' => $query,
-    //         'tanggal' => $tanggal,
-    //         'waktu_sekarang' => $this->waktu
-    //     ];
-
-    //     $html = view('/laporan/pdfPasien', $data);
-
-
-
-    //     // // create new PDF document
-    //     // $pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);
-
-    //     // // set document information
-    //     // $pdf->setCreator(PDF_CREATOR);
-    //     // $pdf->setAuthor('Klinik Akiva');
-    //     // $pdf->setTitle('Klinik Akiva');
-    //     // $pdf->setSubject('Data Obat');
-    //     // $pdf->setKeywords('Data Obat');
-
-    //     // $pdf->setFont('times', '', 12, '', true);
-
-    //     // $pdf->AddPage('L', 'A4');
-
-
-
-    //     // $pdf->writeHTMLCell(0, 0, '', '', $html, 0, 1, 0, true, '', true);
-
-    //     // ---------------------------------------------------------
-
-    //     // Close and output PDF document
-    //     // This method has several options, check the source code documentation for more information.
-    //     //     return $pdf->Output('Laporan_Pasien_' . $tanggal . '.pdf', 'I');
-    // }
+        return view('/laporan/chartPasien', $data);
+    }
 }

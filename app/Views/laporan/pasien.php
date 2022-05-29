@@ -12,7 +12,7 @@
         </button>
         <button type="button" class="ms-3"
             style="height: 40px; width: 130px; color: #ffff; font-family:  'Roboto Mono', monospace; text-align: center; font-weight: 900; background-color: #61529A;">
-            <a href="chartPengunjung.php">CHART PASIEN</a>
+            <a href="/laporan/chartPasien">CHART PASIEN</a>
         </button>
 
         <form class="form-inline" action="" method="get" style="float:right">

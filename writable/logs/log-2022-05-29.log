@@ -219,3 +219,26 @@ CRITICAL - 2022-05-29 11:36:49 --> Invalid file: /laporan/pemeriksaan.php
 #6 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #7 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
 #8 {main}
+CRITICAL - 2022-05-29 11:52:02 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-29 11:53:10 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-29 11:54:50 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-29 11:57:09 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-29 11:58:38 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('/laporan/chartD...', Array, true)
+#3 C:\xampp\htdocs\myclinic\app\Controllers\Laporan.php(166): view('/laporan/chartD...', Array)
+#4 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Laporan->chartDiagnosa()
+#5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

@@ -52,7 +52,7 @@
             <P style="font-size: 70px;"><?= $nama; ?> </P>
         </div>
         <div class="content">
-            <p> <a href="chartDiagnosa.php" style="text-decoration: none; color: whitesmoke"> DETAIL </a> </p>
+            <p> <a href="/laporan/chartDiagnosa" style="text-decoration: none; color: whitesmoke"> DETAIL </a> </p>
         </div>
     </div>
     <div class="card">
