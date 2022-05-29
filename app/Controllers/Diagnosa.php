@@ -194,7 +194,7 @@ class Diagnosa extends BaseController
         $this->diagnosaModel->where('id_pendaftaran', $id_pendaftaran)->set(['status' => $status])->update();
         $this->pendaftaranModel->where('id_pendaftaran', $id_pendaftaran)->set(['status' => $status])->update();
 
-        return redirect()->to('pendaftaran/obat');
+        return redirect()->to('/sistemobat');
     }
 
     public function obatDelete($id_diagnosa)

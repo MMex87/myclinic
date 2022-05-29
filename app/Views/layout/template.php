@@ -42,7 +42,7 @@
                         </li>
                         <li class="breadcrumb-item"
                             <?= ($scrumb == 'obat') ? 'style="color: #7d64c5"' : 'style="color: #8471C9"' ?>>
-                            <?= ($scrumb == 'obat') ? 'OBAT' : '<a href="/pendaftaran/obat">OBAT</a>' ?>
+                            <?= ($scrumb == 'obat') ? 'OBAT' : '<a href="/sistemobat">OBAT</a>' ?>
                         </li>
                     </ol>
                 </nav>
@@ -56,17 +56,6 @@
         <?= $this->renderSection('content'); ?>
 
     </div>
-
-
-    <!-- footer -->
-    <div class="footer" style=" margin-top: 80px; position: absolute; width: 100%;">
-        <footer class="text-center text-white"
-            style="font-family: 'Roboto Mono', monospace; font-weight:550; background-color : #5C5081;">
-            <div class="text-center p-3">Create With <p style="color: #FFFFFF;">
-            </div>
-        </footer>
-    </div>
-
 
 
     <!-- Script Ajax  -->

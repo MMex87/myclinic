@@ -37,8 +37,9 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Pendaftaran::index');
 
 // routes Pendaftaran obat
-$routes->get('/pendaftaran/obat', 'SistemObat::index');
-$routes->get('/pendaftaran/obat/(:num)', 'SistemObat::tindakan/$1');
+$routes->get('/sistemobat', 'SistemObat::index');
+$routes->get('/sistemobat/(:num)', 'SistemObat::tindakan/$1');
+$routes->get('/sistemobat/save', 'SistemObat::save');
 
 // routes Pendaftaran Diagnosa
 $routes->get('/diagnosa', 'Diagnosa::index');

@@ -22,11 +22,14 @@
 
         <?php $i = 1 ?>
         <?php foreach ($pasien as $row) : ?>
-        <form action="" method="post">
+        <form action="/sistemobat/save" method="post">
             <?php
                 if ($row['p'] == null) { ?>
             <tr>
                 <td>Tidak Pakai Obat</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
                 <td>-</td>
                 <td class="p-2">
                     <div class='float-start ms-2'>
@@ -38,10 +41,12 @@
             <tr>
                 <td class="p-2">
                     <h6><?= $row['p'] ?></h6>
-                </td> <input type="hidden" name="nama<?= $i ?>" value="<?= $row['p'] ?>"></td>
+                    <input type="hidden" name="nama<?= $i ?>" value="<?= $row['p'] ?>">
+                </td>
+                </td>
                 <td class="p-2">
-                    <h6><?= $row['jumlah'] ?></h6> <input type="hidden" name="jumlah<?= $i ?>"
-                        value="<?= $row['jumlah'] ?>">
+                    <h6><?= $row['jumlah'] ?></h6>
+                    <input type="hidden" name="jumlah<?= $i ?>" value="<?= $row['jumlah'] ?>">
                 </td>
                 <td class="p-2">
                     <h6><?= $row['pemakaian'] ?></h6>
@@ -80,7 +85,7 @@
         </form>
     </div>
     <div class='float-end me-3 mt-3'>
-        <button type="button" onclick="top.location='pendaftaranObat.php'" class="bg-success fw-bold text-light"
+        <button type="button" onclick="top.location='/sistemobat'" class="bg-success fw-bold text-light"
             style="width: 120px; height: 30px; border-radius: 2px; font-family: 'Roboto Mono', monospace; font-weight:450;  border: 2px solid #ffffff;">Back
             <img src="../img/send.png" width="17px" height="17px" class="mb-1"></button>
     </div>
@@ -107,7 +112,6 @@ function timestamp() {
 function checkButton() {
     if (document.getElementById('obat').checked) {
         document.getElementById('noBPJS').style.display = "none";
-
     }
 }
 </script>

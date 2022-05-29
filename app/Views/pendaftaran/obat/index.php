@@ -27,7 +27,7 @@
                 <td><?= $row['nama_dokter'] ?>
                 </td>
                 <td><button type="submit" name="btTindakan" class=" button bg-primary text-light"
-                        onclick="top.location='/pendaftaran/obat/<?= $row['id_pendaftaran'] ?>'"
+                        onclick="top.location='/sistemobat/<?= $row['id_pendaftaran'] ?>'"
                         style="width: 120px; height: 30px; border-radius: 2px; font-family: 'Roboto Mono', monospace; font-weight:450;  border: 2px solid #ffffff;">
                         TINDAKAN <img src="../img/send.png" width="17px" height="17px" class="mb-1"></button></td>
                 </form>
