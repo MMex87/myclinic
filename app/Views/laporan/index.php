@@ -18,27 +18,38 @@
     <div class="card">
         <div class="header">
             <p style="font-size: 40px;">PASIEN</p>
-
+            <?php
+            if ($pasien > 0) { ?>
+            <P style="font-size: 70px;"> <?= $pasien ?> </P>
+            <?php } else { ?>
+            <P style="font-size: 70px;"> <?= 0 ?> </P>
+            <?php } ?>
         </div>
 
         <div class="content">
-            <p><a href="laporan_pasien.php" style="text-decoration: none; color: whitesmoke"> DETAIL </a> </p>
+            <p><a href="laporan/pasien" style="text-decoration: none; color: whitesmoke"> DETAIL </a> </p>
         </div>
     </div>
     <div class="card">
         <div class="header">
             <p> OBAT</p>
-            <P style="font-size: 70px;"> </P>
+            <?php
+            if ($obat > 0) { ?>
+            <P style="font-size: 70px;"> <?= $obat ?> </P>
+            <?php } else { ?>
+            <P style="font-size: 70px;"> <?= 0 ?> </P>
+            <?php } ?>
 
+            <p style="font-size: 70px;"> <?= $obat ?></p>
         </div>
         <div class="content">
-            <p> <a href="laporan_obat.php" style=" text-decoration: none; color: whitesmoke"> DETAIL </a> </p>
+            <p> <a href="laporan/obat" style=" text-decoration: none; color: whitesmoke"> DETAIL </a> </p>
         </div>
     </div>
     <div class="card">
         <div class="header">
             <p>DIAGNOSA</p>
-            <P style="font-size: 70px;"> </P>
+            <P style="font-size: 70px;"><?= $nama; ?> </P>
         </div>
         <div class="content">
             <p> <a href="chartDiagnosa.php" style="text-decoration: none; color: whitesmoke"> DETAIL </a> </p>
@@ -49,7 +60,7 @@
             <p>PEMERIKSAAN</p>
         </div>
         <div class="content">
-            <p> <a href="pemeriksaan.php" style="text-decoration: none; color: whitesmoke"> DETAIL </a> </p>
+            <p> <a href="laporan/pemeriksaan" style="text-decoration: none; color: whitesmoke"> DETAIL </a> </p>
         </div>
     </div>
 

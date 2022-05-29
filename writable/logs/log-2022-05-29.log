@@ -174,3 +174,48 @@ CRITICAL - 2022-05-29 06:14:04 --> Undefined variable $id_pendaftaran
 #4 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
 #6 {main}
+CRITICAL - 2022-05-29 11:26:10 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('/laporan/pasien', Array, true)
+#3 C:\xampp\htdocs\myclinic\app\Controllers\Laporan.php(68): view('/laporan/pasien', Array)
+#4 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Laporan->pasien()
+#5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#6 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-29 11:33:45 --> Undefined variable $total
+#0 C:\xampp\htdocs\myclinic\app\Views\laporan\obat.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('/laporan/obat', Array, true)
+#4 C:\xampp\htdocs\myclinic\app\Controllers\Laporan.php(135): view('/laporan/obat', Array)
+#5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Laporan->Obat()
+#6 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-29 11:33:57 --> Undefined variable $obat
+#0 C:\xampp\htdocs\myclinic\app\Views\laporan\obat.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('/laporan/obat', Array, true)
+#4 C:\xampp\htdocs\myclinic\app\Controllers\Laporan.php(135): view('/laporan/obat', Array)
+#5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Laporan->Obat()
+#6 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#7 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-29 11:36:49 --> Invalid file: /laporan/pemeriksaan.php
+#0 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/laporan/pemeri...')
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('/laporan/pemeri...', Array, true)
+#2 C:\xampp\htdocs\myclinic\app\Controllers\Laporan.php(157): view('/laporan/pemeri...', Array)
+#3 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Laporan->pemeriksaan()
+#4 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

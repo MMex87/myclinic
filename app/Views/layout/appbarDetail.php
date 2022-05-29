@@ -14,6 +14,12 @@
                 <a href="/<?= $detail; ?>" class="nav-link " aria-current="page"
                     style="color: #ffffff; font-family:  'Roboto Mono', monospace; font-weight:650; font-size: 17px; text-align: center;">BACK</a>
             </li>
+            <?php } else if ($detail == 'laporan') {  ?>
+            <li class="nav-item me-5 btn"
+                style="background-color: #61529A; border-radius: 3px; width: 150px; text-align: center;">
+                <a href="/<?= $detail; ?>" class="nav-link " aria-current="page"
+                    style="color: #ffffff; font-family:  'Roboto Mono', monospace; font-weight:650; font-size: 17px; text-align: center;">BACK</a>
+            </li>
             <?php } ?>
         </ul>
     </div>
