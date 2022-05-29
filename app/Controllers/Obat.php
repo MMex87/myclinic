@@ -3,12 +3,14 @@
 namespace App\Controllers;
 
 use App\Models\ObatModel;
+use App\Models\PembelianModel;
 
 class Obat extends BaseController
 {
     public function __construct()
     {
         $this->obatModel = new ObatModel();
+        $this->pembelianModel = new PembelianModel();
     }
 
     public function index()
@@ -26,14 +28,32 @@ class Obat extends BaseController
         $jenis = $this->request->getVar('jenis');
         $jumlah = $this->request->getVar('jumlah_obat');
         $date = $this->request->getVar('expired_date');
+        $tanggal_beli = $this->request->getVar('tanggalBel');
 
-        // save dengan model
-        $this->obatModel->save([
-            'nama_obat'     => $nama,
-            'jumlah_obat'   => $jumlah,
-            'expired_date'  => $date,
-            'jenis_obat'    => $jenis
-        ]);
+        // deklarasi Data
+        $obat = $this->obatModel->cariObat($nama);
+
+        // d($this->request->getVar());
+        // d($obat);
+        // dd($obat['id_obat']);
+
+        if ($obat) {
+            $this->pembelianModel->save([
+                'jumlah'   => $jumlah,
+                'tanggal_beli'  => $tanggal_beli,
+                'expired_date'  => $date,
+                'id_obat'       => $obat['id_obat'],
+            ]);
+        } else {
+            // save dengan model
+            $this->obatModel->save([
+                'nama_obat'     => $nama,
+                'jumlah_obat'   => $jumlah,
+                'expired_date'  => $date,
+                'jenis_obat'    => $jenis
+            ]);
+        }
+
 
         session()->setFlashdata('pesan', "Data Berhasil DiTambahkan");
 

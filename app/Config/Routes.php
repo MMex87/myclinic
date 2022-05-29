@@ -35,11 +35,14 @@ $routes->setAutoRoute(true);
 
 // routes Pendaftaran
 $routes->get('/', 'Pendaftaran::index');
+
+// routes Pendaftaran obat
 $routes->get('/pendaftaran/obat', 'SistemObat::index');
-$routes->delete('/diagnosa/delete/(:num)', 'Diagnosa::delete/$1');
+$routes->get('/pendaftaran/obat/(:num)', 'SistemObat::tindakan/$1');
 
 // routes Pendaftaran Diagnosa
 $routes->get('/diagnosa', 'Diagnosa::index');
+$routes->delete('/diagnosa/delete/(:num)', 'Diagnosa::delete/$1');
 $routes->get('/diagnosa/tindakan/(:num)', 'Diagnosa::tindakan/$1');
 $routes->get('/diagnosa/obat/', 'Diagnosa::obat/$1');
 $routes->delete('/diagnosa/obatDelete/(:num)', 'Diagnosa::obatDelete/$1');

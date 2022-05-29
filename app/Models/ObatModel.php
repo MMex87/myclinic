@@ -19,6 +19,12 @@ class ObatModel extends Model
         return $this->where(['id_obat' => $id])->first();
     }
 
+    public function cariObat($key)
+    {
+
+        return $this->where(['nama_obat' => $key])->first();
+    }
+
 
     public function search($keyword)
     {

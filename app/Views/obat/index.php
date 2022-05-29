@@ -14,7 +14,9 @@
     <div class="container-fluid" style="background: #ffffff; border-radius: 3px;">
         <form action="/obat/save" method="post">
             <div class="bodyForm">
-                <?php if (session()->getFlashdata('pesan') == 'Data Berhasil DiTambahkan') : ?>
+                <?php
+                $waktu_sekarang = new DateTime();
+                if (session()->getFlashdata('pesan') == 'Data Berhasil DiTambahkan') : ?>
                 <div class="alert alert-success" role="alert">
                     <?= session()->getFlashdata('pesan'); ?>
                 </div>
@@ -39,8 +41,7 @@
                     </tr>
                     <tr>
                         <!-- input id hidden -->
-                        <input type="hidden" name="id_obat">
-                        <input type="hidden" name="tanggalBel">
+                        <input type="hidden" name="tanggalBel" value="<?= $waktu_sekarang->format('Y-m-d') ?>">
                         <td><label for="nama_obat"> Obat</label></td>
                         <td><input type="text" name="nama_obat" id="nama_obat" style="width: 270px;"> </td>
 
