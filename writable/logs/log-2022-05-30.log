@@ -1,0 +1,24 @@
+CRITICAL - 2022-05-30 03:38:54 --> CodeIgniter\I18n\Time::createFromDate(): Argument #1 ($year) must be of type ?int, string given, called in C:\xampp\htdocs\myclinic\app\Controllers\Laporan.php on line 24
+#0 C:\xampp\htdocs\myclinic\app\Controllers\Laporan.php(24): CodeIgniter\I18n\Time::createFromDate('2022-05-29')
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Laporan->index()
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-30 03:44:08 --> CodeIgniter\I18n\Time::createFromDate(): Argument #3 ($day) must be of type ?int, string given, called in C:\xampp\htdocs\myclinic\app\Controllers\Laporan.php on line 25
+#0 C:\xampp\htdocs\myclinic\app\Controllers\Laporan.php(25): CodeIgniter\I18n\Time::createFromDate(2022, 5, '30 15:44:08')
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Laporan->index()
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-30 03:54:29 --> Undefined property: TCPDF::$response
+#0 C:\xampp\htdocs\myclinic\app\Controllers\Laporan.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 181)
+#1 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Laporan->pasienPdf()
+#2 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Laporan))
+#3 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\myclinic\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\myclinic\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

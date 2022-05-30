@@ -8,7 +8,7 @@
 
         <button type="button"
             style="height: 40px; width: 120px; color: #ffff; font-family:  'Roboto Mono', monospace; text-align: center; font-weight: 900; background-color: #61529A;">
-            <a href="pdfPasien.php?tanggal=<?= $tanggal ?>">DOWNLOAD</a>
+            <a href="/laporan/pasienPdf?tanggal=<?= $tanggal ?>">DOWNLOAD</a>
         </button>
         <button type="button" class="ms-3"
             style="height: 40px; width: 130px; color: #ffff; font-family:  'Roboto Mono', monospace; text-align: center; font-weight: 900; background-color: #61529A;">
